@@ -1,0 +1,25 @@
+# Requirements para Conversor de Vídeo MP4 para Áudio MP3
+# Python 3.8+
+# PyCharm + macOS + venv
+
+# IMPORTANTE: Instalar FFmpeg ANTES (ver INSTALL_PYCHARM_MACOS.md)
+
+# Processamento de vídeo e áudio
+moviepy==1.0.3
+pydub==0.25.1
+
+# Dependências
+numpy>=1.21.0,<2.0
+decorator>=4.0.11,<5.0
+imageio==2.31.1
+imageio-ffmpeg==0.4.9
+proglog>=0.1.9
+tqdm>=4.64.0
+requests>=2.8.1
+
+# NOTA: Se der erro, instalar nesta ordem:
+# pip install numpy
+# pip install decorator imageio proglog tqdm requests
+# pip install imageio-ffmpeg
+# pip install moviepy==1.0.3
+# pip install pydub
